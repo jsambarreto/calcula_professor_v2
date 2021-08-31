@@ -51,7 +51,7 @@ class _CalculaHoraState extends State<CalculaHora> {
             child: Column(
               children: [
                 Container(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(10),
                   child: Text(
                     'Carga horaria total: ',
                     textAlign: TextAlign.center,
@@ -63,7 +63,7 @@ class _CalculaHoraState extends State<CalculaHora> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(10),
                   child: Text(
                     num.parse('$value').toStringAsPrecision(2),
                     textAlign: TextAlign.center,
@@ -126,7 +126,7 @@ class _CalculaHoraState extends State<CalculaHora> {
                 Container(
                   padding: EdgeInsets.all(20),
                   child: Text(
-                    'Aplicativo para calcular as horas aulas de um professor de uma Instituicao de Ensino Superior do estado da Bahia. O calculo é proveniente da Convencao Coletiva homologada ate 2019',
+                    'Aplicativo para calcular as horas aulas de um professor de uma Instituicao de Ensino Superior do estado da Bahia. O calculo é proveniente da Convencao Coletiva homologada até 2019, podendo haver diferenças devido a alterações especificas da legislação pertinente',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.grey[800],

@@ -1,4 +1,4 @@
-import 'package:calcula_professor/pages/splashscreeen.dart';
+import 'pages/splashscreeen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

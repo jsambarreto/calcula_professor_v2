@@ -18,14 +18,14 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Container(
-              height: 360,
+              height: 340,
               child: Image.asset('assets/images/imagemCalcula.png',
                   fit: BoxFit.cover),
             ),
             Container(
               padding: EdgeInsets.all(10),
               child: Text(
-                'Aplicativo para calcular as horas aulas de um professor de uma Instituicao de Ensino Superior do estado da Bahia. O calculo é proveniente da Convenção Coletiva homologada até 2019',
+                'Aplicativo para calcular as horas aulas de um professor de uma Instituicao de Ensino Superior do estado da Bahia. O calculo é proveniente da Convencao Coletiva homologada até 2019, podendo haver diferenças devido a alterações especificas da legislação pertinente',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.grey[800],
@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 MaterialButton(
-                  minWidth: 170,
+                  minWidth: 150,
                   height: 50,
                   color: Colors.blue[800],
                   child: new Text('Salario bruto',
@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                   },
                 ),
                 MaterialButton(
-                  minWidth: 170,
+                  minWidth: 150,
                   height: 50,
                   color: Colors.blue[800],
                   child: new Text('Hora aula',
